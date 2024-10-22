@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Animal Rascals</title>
+	<link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+  <div id="info-panel">
+    <h2>Animal Rascals</h2>
+    <p id="animal-info">Hover over an animal and click to learn more!</p>
+</div>
+
+<div id="resolution-panel">
+  <div class="choose-option">
+    <button id='fight-button'>Let's Fight !</button>
+    <button id='fight-button'>Okay, let's talk this out.</button>
+  </div>
+  <div id="output-resolution">
+    //results of fight or conversation will appear here
+  </div>
+</div>
+
+<div id="meadow">
+    <!-- Animal images will be added here dynamically -->
+     <div id="waiting-area">
+      <h3>SIDELINES</h3>
+      <div class="animals-container"></div>
+     </div>
+     <div id="challenge-arena">
+      <h3>ARENA</h3>
+      <div class="animals-container"></div>
+     </div>
+</div>
+
+	<script type="text/javascript" src="./src/index.js"></script>
+</body>
+
+</html>

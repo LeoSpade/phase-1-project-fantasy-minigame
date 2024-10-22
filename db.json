@@ -1,0 +1,13 @@
+{
+    "animals": [
+      { "id": 1, "name": "Serious Cat", "image": "american-shorthair-cat-dressed-in-armor.png", "info": "A cat with a serious demeanor, ready for battle." },
+      { "id": 2, "name": "Baby Panda", "image": "baby-panda-dressed-in-leather-armour-big-eyes-isolated-on-transparent-png-image_11900077.png", "info": "An adorable panda cub in leather armor." },
+      { "id": 3, "name": "Beagle", "image": "beagle-dog-dressed-in-armor.png", "info": "A loyal beagle ready for adventure." },
+      { "id": 4, "name": "Regal Cat", "image": "egyptian-cat-in-iron-armor-png-image_11949648.png", "info": "A majestic cat with the air of ancient Egypt." },
+      { "id": 5, "name": "Brave Cat", "image": "fluffy-white-cat-dressed-in-armor.png", "info": "A fluffy white cat, small but courageous." },
+      { "id": 6, "name": "Gerbil", "image": "gerbel-dressed-in-armor.png", "info": "A tiny gerbil, armored and ready for big adventures." },
+      { "id": 7, "name": "Hamster", "image": "hamster-dressed-in-armor-with-sword.png", "info": "A hamster wielding a sword, prepared for epic battles."},
+      { "id": 8, "name": "Earnest Squirrel", "image": "squirrel-dressed-in-armor-standing-png-image_12657450.png", "info": "An earnest squirrel, standing tall in its armor." },
+      { "id": 9, "name": "Warrior Squirrel", "image": "squirrel-knight-in-armor-illustration-vector-p-png-image_12657461.png", "info": "A squirrel knight, the protector of the forest." }
+    ]
+  }
