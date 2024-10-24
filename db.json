@@ -1,5 +1,5 @@
 {
-    "animals": [
+  "animals": [
       { "id": 1, "name": "Serious Cat", "image": "american-shorthair-cat-dressed-in-armor.png", "info": "A cat with a serious demeanor, ready for battle." },
       { "id": 2, "name": "Baby Panda", "image": "baby-panda-dressed-in-leather-armour-big-eyes-isolated-on-transparent-png-image_11900077.png", "info": "An adorable panda cub in leather armor." },
       { "id": 3, "name": "Beagle", "image": "beagle-dog-dressed-in-armor.png", "info": "A loyal beagle ready for adventure." },
@@ -9,5 +9,374 @@
       { "id": 7, "name": "Hamster", "image": "hamster-dressed-in-armor-with-sword.png", "info": "A hamster wielding a sword, prepared for epic battles."},
       { "id": 8, "name": "Earnest Squirrel", "image": "squirrel-dressed-in-armor-standing-png-image_12657450.png", "info": "An earnest squirrel, standing tall in its armor." },
       { "id": 9, "name": "Warrior Squirrel", "image": "squirrel-knight-in-armor-illustration-vector-p-png-image_12657461.png", "info": "A squirrel knight, the protector of the forest." }
-    ]
+    ],
+
+  "interactions": {
+      "fights": [
+        {
+          "pair": "1-2",
+          "winner": "2",
+          "outcome": "Baby Panda squishes Serious Cat"
+        },
+        {
+          "pair": "1-3",
+          "winner": "3",
+          "outcome": "Beagle chomps Serious Cat"
+        },
+        {
+            "pair": "1-4",
+            "winner": "4",
+            "outcome": "Regal Cat destroys Serious Cat"
+        },
+        {
+            "pair": "1-5",
+            "winner": "1",
+            "outcome": "Serious Cat mauls Brave cat"
+        },
+        {
+            "pair": "1-6",
+            "winner": "1",
+            "outcome": "Serious Cat eats Gerbil"
+        },
+        {
+            "pair": "1-7",
+            "winner": "1",
+            "outcome": "Serious Cat mushes Hamster"
+        },
+        {
+            "pair": "1-8",
+            "winner": "1",
+            "outcome": "Serious Cat kills Earnest Squirrel"
+        },
+        {
+            "pair": "1-9",
+            "winner": "9",
+            "outcome": "Warrior Squirrel smashes Serious Cat"
+        },
+        {
+          "pair": "2-3",
+          "winner": "2",
+          "outcome": "Baby Panda squishes Beagle"
+        },
+        {
+            "pair": "2-4",
+            "winner": "4",
+            "outcome": "Regal Cat rips the Baby Panda's face off"
+        },
+        {
+            "pair": "2-5",
+            "winner": "2",
+            "outcome": "Baby Panda swats Brave Cat"
+        },
+        {
+            "pair": "2-6",
+            "winner": "2",
+            "outcome": "Baby Panda sits on Gerbil"
+        },
+        {
+            "pair": "2-7",
+            "winner": "2",
+            "outcome": "Baby Panda paws Hamster to smithereens"
+        },
+        {
+            "pair": "2-8",
+            "winner": "2",
+            "outcome": "Baby Panda whacks Earnest Squirrel really hard"
+        },
+        {
+            "pair": "2-9",
+            "winner": "9",
+            "outcome": "Warrior Squirrel unexpectedly slays Baby Panda"
+        },
+        {
+          "pair": "3-4",
+          "winner": "4",
+          "outcome": "Regal Cat destroys Serious Cat"
+        },
+        {
+          "pair": "3-5",
+          "winner": "3",
+          "outcome": "Beagle mauls Brave cat"
+        },
+        {
+          "pair": "3-6",
+          "winner": "3",
+          "outcome": "Beagle chews Gerbil like a squeaky toy"
+        },
+        {
+          "pair": "3-7",
+          "winner": "3",
+          "outcome": "Beagle eats Hamster"
+        },
+        {
+          "pair": "3-8",
+          "winner": "3",
+          "outcome": "Beagle catches Earnest Squirrel in his mouth"
+        },
+        {
+          "pair": "3-9",
+          "winner": "9",
+          "outcome": "Warrior Squirrel defeats Beagle"
+        },
+        {
+            "pair": "4-5",
+            "winner": "4",
+            "outcome": "Regal Cat trounces Brave cat"
+        },
+        {
+            "pair": "4-6",
+            "winner": "4",
+            "outcome": "Regal Cat eats Gerbil for lunch"
+        },
+        {
+            "pair": "4-7",
+            "winner": "4",
+            "outcome": "Regal Cat swats Hamster"
+        },
+        {
+            "pair": "4-8",
+            "winner": "4",
+            "outcome": "Regal Cat kills Earnest Squirrel"
+        },
+        {
+            "pair": "4-9",
+            "winner": "4",
+            "outcome": "Regal Cat defeats Warrior Squirrel in single combat"
+        },
+        {
+            "pair": "5-6",
+            "winner": "6",
+            "outcome": "Gerbil defeats Brave Cat"
+        },
+        {
+            "pair": "5-7",
+            "winner": "7",
+            "outcome": "Hamster pokes Brave Cat with his sword and Brave Cat runs away"
+        },
+        {
+            "pair": "5-8",
+            "winner": "8",
+            "outcome": "Earnest Squirrel smites Brave Cat"
+        },
+        {
+            "pair": "5-9",
+            "winner": "9",
+            "outcome": "Warrior Squirrel bashes Brave Cat with his tail"
+        },
+        {
+            "pair": "6-7",
+            "winner": "7",
+            "outcome": "Hamster stabs Gerbil in his fluffy butt with a sword"
+        },
+        {
+            "pair": "6-8",
+            "winner": "8",
+            "outcome": "Earnest Squirrel boxes Gerbil about the ears until he's concussed"
+        },
+        {
+            "pair": "6-9",
+            "winner": "9",
+            "outcome": "Warrior Squirrel soundly defeats Gerbil"
+        },
+        {
+            "pair": "7-8",
+            "winner": "7",
+            "outcome": "Hamster defeats Earnest Squirrel in a close battle"
+        },
+        {
+            "pair": "7-9",
+            "winner": "9",
+            "outcome": "Warrior Squirrel punts Hamster like a fluffy football"
+        },
+        {
+          "pair": "8-9",
+          "winner": "9",
+          "outcome": "Warrior Squirrel whoops Earnest Squirrel's butt"
+        }
+      ],
+
+    "conversations": [
+      {
+        "pair": "1-2",
+        "winner": "2",
+        "outcome": "Baby Panda preaches philosophy to Serious Cat and Serious Cat gets bored and falls asleep."
+      },
+      {
+        "pair": "1-3",
+        "winner": "3",
+        "outcome": "Serious Cat tells Beagle that he's a stupid dog and Beagle does not disagree but gets distracted by a butterfly."
+      },
+      {
+          "pair": "1-4",
+          "winner": "4",
+          "outcome": "Regal Cat recites ancient cat laws to Serious Cat and then takes his fish."
+      },
+      {
+          "pair": "1-5",
+          "winner": "1",
+          "outcome": "Serious Cat condescends to Brave Cat and then walks away."
+      },
+      {
+          "pair": "1-6",
+          "winner": "1",
+          "outcome": "Serious Cat tries to tell Gerbil how awesome cats are, but Gerbil starts yammering really fast and Serious Cat gets scared and goes away."
+      },
+      {
+          "pair": "1-7",
+          "winner": "1",
+          "outcome": "Hamster yells Norwegian battlecries at Serious Cat."
+      },
+      {
+          "pair": "1-8",
+          "winner": "1",
+          "outcome": "Earnest Squirrel tells Serious Cat all of the squirrely secrets of the universe."
+      },
+      {
+          "pair": "1-9",
+          "winner": "9",
+          "outcome": "Warrior Squirrel describes the Great WAy to Serious Cat"
+      },
+      {
+        "pair": "2-3",
+        "winner": "3",
+        "outcome": "Baby Panda and Beagle agree to be friends and not talk to cats anymore."
+      },
+      {
+          "pair": "2-4",
+          "winner": "4",
+          "outcome": "Regal Cat yawns and goes to sleep on Baby Panda's belly and Baby Panda falls asleep too."
+      },
+      {
+          "pair": "2-5",
+          "winner": "1",
+          "outcome": "Baby Panda ignores Brave Cat who talks at length about fish."
+      },
+
+      {
+          "pair": "2-6",
+          "winner": "1",
+          "outcome": "Baby Panda tells Gerbil to chill out"
+      },
+      {
+          "pair": "2-7",
+          "winner": "1",
+          "outcome": "Baby Panda condescends to Hamster"
+      },
+      {
+          "pair": "2-8",
+          "winner": "1",
+          "outcome": "Earnest Squirrel impresses Baby Panda with his solemn wisdom"
+      },
+      {
+          "pair": "2-9",
+          "winner": "9",
+          "outcome": "Baby Panda and Warrior Squirrel have a long and thoughtful conversation"
+      },
+      {
+        "pair": "3-4",
+        "winner": "4",
+        "outcome": "Regal Cat tells Serious Cat that he's too serious and not smart"
+      },
+      {
+        "pair": "3-5",
+        "winner": "1",
+        "outcome": "Serious Cat tells Brave cat he is stupid"
+      },
+      {
+        "pair": "3-6",
+        "winner": "1",
+        "outcome": "Serious Cat rolls his eyes at Gerbil and walks away"
+      },
+      {
+        "pair": "3-7",
+        "winner": "1",
+        "outcome": "Serious Cat chides Hamster for being bellicose"
+      },
+      {
+        "pair": "3-8",
+        "winner": "1",
+        "outcome": "Earnest Squirrel and Serious Cat decide they definitely do not like each other"
+      },
+      {
+        "pair": "3-9",
+        "winner": "9",
+        "outcome": "Warrior Squirrel berates Serious Cat for his lack of contributions to the animal kingdom"
+      },
+      {
+          "pair": "4-5",
+          "winner": "1",
+          "outcome": "Regal Cat insults Serious Cat, saying he's all whiskers and no claws."
+      },
+      {
+          "pair": "4-6",
+          "winner": "1",
+          "outcome": "Regal Cat admonishes Gerbil for being so crazy."
+      },
+      {
+          "pair": "4-7",
+          "winner": "1",
+          "outcome": "Regal Cat mentors Hamster in the ways of warrior kings"
+      },
+      {
+          "pair": "4-8",
+          "winner": "1",
+          "outcome": "Regal Cat and Earnest Squirrel face off in a battle of wits and both leave satisfied"
+      },
+      {
+          "pair": "4-9",
+          "winner": "9",
+          "outcome": "Regal Cat insults Warrior Squirrel and they vow to be enemies forever more"
+      },
+      {
+          "pair": "5-6",
+          "winner": "1",
+          "outcome": "Brave Cat offers Gerbil some advice but Gerbil starts blabbering about carrots"
+      },
+      {
+          "pair": "5-7",
+          "winner": "1",
+          "outcome": "Hamster tells Brave Cat he's a coward and Brave Cat turns into a cheeseball"
+      },
+      {
+          "pair": "5-8",
+          "winner": "1",
+          "outcome": "Earnest Squirrel is kind to Brave Cat and they leave as friends"
+      },
+      {
+          "pair": "5-9",
+          "winner": "9",
+          "outcome": "Warrior Squirrel stares at Brave Cat until he meows like a kitten"
+      },
+      {
+          "pair": "6-7",
+          "winner": "1",
+          "outcome": "Hamster tries to speak to Gerbil but Gerbil starts screaming madly"
+      },
+      {
+          "pair": "6-8",
+          "winner": "1",
+          "outcome": "Earnest Squirrel is seriously disturbed by Gerbil"
+      },
+      {
+          "pair": "6-9",
+          "winner": "9",
+          "outcome": "Warrior Squirrel sits silently as Gerbil blabbers nonsense"
+      },
+      {
+          "pair": "7-8",
+          "winner": "1",
+          "outcome": "Earnest Squirrel tells Hamster he has the makings of a scholar warrior"
+      },
+      {
+          "pair": "7-9",
+          "winner": "9",
+          "outcome": "Warrior Squirrel and Hamster get drunk and play poker."
+      },
+      {
+        "pair": "8-9",
+        "winner": "9",
+        "outcome": "Earnest Squirrel convinces Warrior Squirrel to hand over all his nuts for the winter."
+      }
+      ]
+    }
   }
